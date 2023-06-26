@@ -7,7 +7,9 @@ const Login = () => {
   const { register, handleSubmit, reset } = useForm();
   const [showPassword, setShowPassword] = useState(false);
 
-  const onSubmit = (data) => {};
+  const onSubmit = (data) => {
+
+  };
 
   return (
     <div className="w-[800px] h-[588px] lg:mx-auto my-16">
@@ -59,7 +61,7 @@ const Login = () => {
           value="Login"
         />
       </form>
-      <p className="text-2xl font-medium">Don't Have An Account? <Link className="text-primary">Register Now</Link></p>
+      <p className="text-2xl font-medium text-center">Don't Have An Account? <Link className="text-primary">Register Now</Link></p>
     </div>
   );
 };
